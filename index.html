@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Practise</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href='https://fonts.googleapis.com/css?family=Taviraj:100' rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+
+
+<div id="header">
+	<div class="logo"></div>
+	<div class="hamburger"></div>
+	<ul id="nav">
+		<li>Home</li>
+		<li>Products</li>
+		<li>Services</li>
+		<li>Contact</li>
+	</ul>
+</div>
+
+
+<div class="content">
+	
+	<div class="portion" id="first">
+		<div class="main">
+			<h1 class="white-text">Dramatically Engage</h1>
+			<p class="white-text">Objectively innovate empowered manufactured products whereas parallel platforms.</p>
+			<div class="button white-text white-but" id="fr-but">Engage Now</div>
+		</div>
+		
+	</div>
+
+	<div class="portion" id="second">
+		<div>
+			<h1 class="white-text">Completely synergize resource taxing relationships</h1>
+			<p class="white-text">Professionally cultivate one-to-one customer service with robust ideas. Dynamically innovate resource-leveling customer service for state of the art customer service.</p>
+		</div>
+		
+	</div>
+
+	<div class="portion" id="third">
+		<div class="stupid common">
+			<img src="microphone.jpg" class="image left">
+			<div class="right">
+				<h1 class="common-h">Best in Class</h1>
+				<p class="common-p">Holisticly predominate extensible testing procedures for reliable supply chains. Dynamically innovate resource-leveling customer service for state of the art customer service.</p>
+				<div class="button black-button white-text" id="secbut">Classify it</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="portion" id="fourth">
+		<div class=" stupid common">
+			<img src="iphone.jpg" class="image right">
+			<div class="left">
+				<h1 class="common-h white-text">Superior Quality</h1>
+				<p class="common-p white-text">Holisticly predominate extensible testing procedures for reliable supply chains. Dynamically innovate resource-leveling customer service for state of the art customer service.</p>
+				<div class="button white-text white-but" id="">Test it</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="portion" id="fifth">
+		<div>
+			<div class="common-picture" id="p1"><p class="white-text">Unleash</p></div>
+			<div class="common-picture" id="p2"><p class="white-text">Synergize</p></div>
+			<div class="common-picture" id="p3"><p class="white-text">Procasinate</p></div>
+		</div>	
+	</div>
+
+	<div class="portion" id="sixth">
+		<div>
+			<h1>Sanity Check</h1>
+			<p>Holisticly predominate extensible testing procedures for reliable supply chains. Dynamically innovate resource-leveling customer service for state of the art customer service.</p>
+			<div class="button black-button" id="sbut">Check Now</div>
+		</div>
+	</div>
+
+	<div class="portion footer">
+		<div class="white-text">
+			<h1 class="white-text">Contact US</h1>
+			<p>03343248848</p> <br />
+			<h1 class="white-text">Email</h1>
+			<p>nhaq@stu.smiu.edu.pk</p>
+		</div>
+		<p>Copyright &copy; Example 2016</p>
+	</div>
+
+</div>
+
+<script type="text/javascript">
+window.addEventListener('scroll', function(){
+		if(window.pageYOffset >= 140){
+			document.getElementById('header').style.backgroundColor="white";
+		}
+		else
+			document.getElementById('header').style.backgroundColor="";
+});
+var act=0;
+document.getElementsByClassName('hamburger')[0].addEventListener('click', function(){
+	if(act == 0){
+		document.getElementById('nav').style.height="auto";
+		document.getElementById('header').style.backgroundColor="white";
+		act=1;
+	}
+	else{
+		document.getElementById('nav').style.height="0px";
+		act=0;
+	}
+
+})
+
+</script>
+
+</body>
+</html>
