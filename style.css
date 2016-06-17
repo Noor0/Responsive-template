@@ -1,3 +1,7 @@
+*::selection {
+  background: #66ffb3;
+}
+
 body{
 	position:absolute;
 	top:0px;
