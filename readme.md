@@ -1,0 +1,2 @@
+##Responsive HTML template
+this template is a replication of a free bootstrap template that i made just for practise. Original template uses bootstrap while this one is developed using only css and it is responsive as well.
